@@ -1,12 +1,14 @@
-def func(y, z):
-    return y // z
+def func(x, z):
+    return x // z
 
-a = int(input("Enter first values - "))
-if y <= 0:
-    y = int(print("Делить на нуль нельзя "))
+
+x = int(input("Enter first values - "))
+if x <= 0:
+    x = int(print("Error, please repeat program "))
+
 else:
-    z = int(input("Enter second values - "))
+    z = int(input("Enter secound values - "))
 if z <= 0:
-    print("Делить на нуль нельзя ")
+    print("Error, please repeat program ")
 else:
-    print(func(y, z))
+    print(func(x, z))
